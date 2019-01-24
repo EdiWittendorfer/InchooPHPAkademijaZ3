@@ -6,7 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/stil.css"/>
-    <title>Document</title>
+    <title>Zadaca 3</title>
 </head>
 <body>
 
@@ -76,27 +76,22 @@ function spiralFill($m, $n, &$a)
         }
     }
 }
-
 // Driver Code
 $m = 4;
 $n = 5;
 spiralFill($m, $n, $a);
 
-echo '<div class="obrub">';
 for ($i = 0; $i < $m; $i++)
 {
-
+    echo '<div class="obrub">';
     for ($j = 0; $j < $n; $j++)
     {
-
-        echo "<span style=''>".($a[$i][$j])."</span>";
+        echo "<span style='color: #ffffff'>".($a[$i][$j])."</span>";
         echo (" ");
-
     }
-
+    echo '<div>';
     echo "<br />\n";
 }
-echo '<div>';
 ?>
 </div>
 </body>

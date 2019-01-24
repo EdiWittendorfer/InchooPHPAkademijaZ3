@@ -47,7 +47,7 @@ input {
 	background: #78787a;
 	border-color: white;
 	color: #ffffff;
-	width: 75%;
+	width: 37.5%;
 	height: 75px;
 	border-color: white;
 	vertical-align: middle;
@@ -73,8 +73,9 @@ input:focus {
 	text-transform: uppercase;
 	display: block;
 	cursor: pointer;
+	width: 75%;
 }
-	
+
 #tablica {
 	margin: 20px;
 	padding: 10px 0px;
@@ -83,23 +84,6 @@ input:focus {
 	font-weight: bold;
 }
 
-.polje {
-	width: 90px;
-	height: 90px;
-	background: #ffffff; 
-	text-align:center;
-	vertical-align: middle;
-	line-height: 90px;
-	-webkit-border-radius: 15px;
-	-moz-border-radius: 15px;
-	border-radius: 15px;
-}
-
 obrub{
-	border: 5px;
-	background: #0FA0CE;
-}
 
-broj_redaka{
-	border: 5px;
 }

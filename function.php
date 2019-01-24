@@ -40,8 +40,10 @@ function spiralFill($m, $n, &$a)
        n - ending column index */
     $k = 0;
     $l = 0;
+
     while ($k < $m && $l < $n)
     {
+
         /* Print the first row from
         the remaining rows */
         for ($i = $l; $i < $n; ++$i)
@@ -72,25 +74,29 @@ function spiralFill($m, $n, &$a)
                 $a[$i][$l] = $val++;
             $l++;
         }
-
     }
-
 }
 
 // Driver Code
 $m = 4;
 $n = 5;
 spiralFill($m, $n, $a);
+
+echo '<div class="obrub">';
 for ($i = 0; $i < $m; $i++)
 {
+
     for ($j = 0; $j < $n; $j++)
     {
-        echo ($a[$i][$j]);
-        echo (" ");
-    }
-    echo "<br />\n";
 
+        echo "<span style=''>".($a[$i][$j])."</span>";
+        echo (" ");
+
+    }
+
+    echo "<br />\n";
 }
+echo '<div>';
 ?>
 </div>
 </body>

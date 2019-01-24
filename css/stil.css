@@ -1,5 +1,5 @@
 body  {
-	background: #f4f4f4;
+	background: #3f3f41;
 }
 
 main {
@@ -18,8 +18,7 @@ section#prikaz {
 
 header {
 	width: 300px;
-	color: #4e5563;
-	border-bottom: 2px solid #4e5563;
+	color: #4e4e50;
 	margin: 20px;
 	padding: 10px 0px;
 }
@@ -40,15 +39,17 @@ form {
 
 label {
 	display: block;
-	color: #919191;
+	color: #ffffff;
 	font-family: "Arial", Gadget, sans-serif;
 }
 
 input {
-	color: #7aabe7;
+	background: #78787a;
+	border-color: white;
+	color: #ffffff;
 	width: 75%;
 	height: 75px;
-	border:none;
+	border-color: white;
 	vertical-align: middle;
 	line-height: 75px;
 	font-size: 24px;
@@ -58,7 +59,6 @@ input {
 	-webkit-border-radius: 20px;
 	-moz-border-radius: 20px;
 	border-radius: 20px;
-	behavior: url(skripte/pie.min.htc);
 }
 
 input:focus {
@@ -66,7 +66,8 @@ input:focus {
 }
 
 #kreiraj {
-	background-color: #7aabe7;
+	background-color: #79ac35;
+	border: none;
 	color: #ffffff;
 	font-weight: bold;
 	text-transform: uppercase;
@@ -92,4 +93,13 @@ input:focus {
 	-webkit-border-radius: 15px;
 	-moz-border-radius: 15px;
 	border-radius: 15px;
+}
+
+obrub{
+	border: 5px;
+	background: #0FA0CE;
+}
+
+broj_redaka{
+	border: 5px;
 }
